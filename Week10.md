@@ -2,6 +2,7 @@
 ---
 
 ### **Data:**
+
 Let's assume you have a `customers` table in **SQL** and a `customers` collection in **MongoDB** with the following data:
 
 - **Customer 1:** John Doe, john@example.com
@@ -238,13 +239,3 @@ db.orders.aggregate([
 ```
 
 ---
-
-### **Summary**
-
-In summary, the structure for **SQL** and **MongoDB** for similar operations is quite different, but the underlying concepts remain the same. The key differences to keep in mind are:
-
-1. **SQL** uses tables and rows, whereas **MongoDB** uses collections and documents.
-2. **SQL** performs operations using structured queries (SELECT, INSERT, UPDATE, DELETE), while **MongoDB** uses the Mongo shell or aggregation framework for similar operations.
-3. **SQL** supports joins directly, while **MongoDB** uses `$lookup` in aggregation pipelines to simulate joins.
-
-This schedule allows you to practice similar data operations and understand how both relational and NoSQL databases work.
