@@ -1,1 +1,1 @@
-https://github.com/Chanakya-dev/MoviePlan.git
+https://github.com/Academix1/MovieApp/blob/Vite
